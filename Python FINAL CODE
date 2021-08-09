@@ -36,7 +36,6 @@ while(1==1):
         if(u=='OFF'):#motor off
          print('motor off')
          data.write(b'4')
-
     if(k=='sON'):#sprinkler on command
         data.write(b'5')
         print('sprinkler ON')
@@ -44,3 +43,4 @@ while(1==1):
     if(k=='sOFF'):#sprinkler off command
         data.write(b'6')
         print('sprinkler OFF')
+        
